@@ -160,7 +160,6 @@ function removeFavorite(movieId){
   location.reload();
 }
 function addToFavorites(movieId){
-  console.log(movieId);
   if (localStorage.getItem("favorites")===null){
     let favorites = [];
     favorites.push(movieId);
